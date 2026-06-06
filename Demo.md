@@ -49,9 +49,6 @@
 
 ---
 
-## Demo Screenshots
-
-> Add screenshots by placing `screenshot.png` in the repo root.
 
 ---
 
@@ -68,7 +65,7 @@ See the [README](https://github.com/mayank-dev-15/devforge#readme) for detailed 
 
 ## 🔗 Links
 
-- **Live Demo:** [https://mayank-dev-15.github.io/devforge](https://mayank-dev-15.github.io/devforge)
+- **Live Demo:** [https://mayank-dev-15.github.io/devforge](https://mayank-dev-15.github.io/devforge-demo)
 - **Source:** [github.com/mayank-dev-15/devforge](https://github.com/mayank-dev-15/devforge)
 - **Issues:** [github.com/mayank-dev-15/devforge/issues](https://github.com/mayank-dev-15/devforge/issues)
 - **Releases:** [github.com/mayank-dev-15/devforge/releases](https://github.com/mayank-dev-15/devforge/releases)
