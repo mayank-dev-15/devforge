@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-**Try it now:** [https://mayank-dev-15.github.io/devforge]([https://mayank-dev-15.github.io/devforge-demo/])
+**Try it now:** [https://mayank-dev-15.github.io/devforge](([https://mayank-dev-15.github.io/devforge-demo/]))
 
 > **No installation required for HTML demos.** Runs entirely in your browser — no frameworks, no build tools, no backend. Pure vanilla HTML, CSS, and JavaScript.
 
