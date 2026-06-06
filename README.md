@@ -1,6 +1,6 @@
 # devforge
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)](https://mayank-dev-15.github.io/devforge)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-blue?style=for-the-badge)](https://mayank-dev-15.github.io/devforge-demo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Language](https://img.shields.io/badge/Language-JavaScript/Python-green)
 
@@ -27,7 +27,7 @@ Swiss-army knife developer hub with JSON formatter, regex tester, hash generator
 
 ## 🚀 Live Demo
 
-**[View Demo →](https://mayank-dev-15.github.io/devforge)**
+**[View Demo →](https://mayank-dev-15.github.io/devforge-demo)**
 
 The demo is hosted on GitHub Pages. No installation needed — just click and explore.
 
@@ -95,7 +95,7 @@ This project is licensed under the MIT License.
 
 ## 🔗 Links
 
-- **Live Demo:** [https://mayank-dev-15.github.io/devforge](https://mayank-dev-15.github.io/devforge)
+- **Live Demo:** [https://mayank-dev-15.github.io/devforge](https://mayank-dev-15.github.io/devforge-demo)
 - **Source Code:** [github.com/mayank-dev-15/devforge](https://github.com/mayank-dev-15/devforge)
 - **Issues:** [github.com/mayank-dev-15/devforge/issues](https://github.com/mayank-dev-15/devforge/issues)
 - **Releases:** [github.com/mayank-dev-15/devforge/releases](https://github.com/mayank-dev-15/devforge/releases)
