@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevForge - Developer Tools Hub</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<nav class="navbar dark">
+  <div class="nav-brand">⚡ DevForge</div>
+  <div class="nav-links">
+    <a href="/" class="active">Dashboard</a>
+    <a href="/tools">Tools</a>
+    <a href="/snippets">Snippets</a>
+    <a href="/api-docs">API Docs</a>
+    <a href="/admin">Admin</a>
+  </div>
+  <div class="nav-user">
+    <span id="userName">Developer</span>
+    <button onclick="logout()" class="btn btn-sm btn-outline">Logout</button>
+  </div>
+</nav>
+
+<main class="container">
+  <section class="hero gradient">
+    <h1>⚡ DevForge</h1>
+    <p>JSON formatter, regex tester, hash generator, API playground & more — all in one place.</p>
+    <div class="search-bar">
+      <input type="text" id="toolSearch" placeholder="Search tools... (e.g. json, regex, hash)" oninput="filterTools()">
+    </div>
+  </section>
+
+  <section class="tools-grid" id="toolsGrid">
+    <div class="tool-card" onclick="openTool('json')">
+      <div class="tool-icon">{}</div>
+      <h3>JSON Formatter</h3>
+      <p>Format, validate & minify JSON</p>
+    </div>
+    <div class="tool-card" onclick="openTool('regex')">
+      <div class="tool-icon">.*</div>
+      <h3>Regex Tester</h3>
+      <p>Test regex patterns live</p>
+    </div>
+    <div class="tool-card" onclick="openTool('hash')">
+      <div class="tool-icon">#</div>
+      <h3>Hash Generator</h3>
+      <p>MD5, SHA-1, SHA-256, SHA-512</p>
+    </div>
+    <div class="tool-card" onclick="openTool('base64')">
+      <div class="tool-icon">64</div>
+      <h3>Base64 Encode/Decode</h3>
+      <p>Encode & decode Base64 strings</p>
+    </div>
+    <div class="tool-card" onclick="openTool('url')">
+      <div class="tool-icon">🔗</div>
+      <h3>URL Encoder</h3>
+      <p>Encode & decode URLs</p>
+    </div>
+    <div class="tool-card" onclick="openTool('color')">
+      <div class="tool-icon">🎨</div>
+      <h3>Color Picker</h3>
+      <p>HEX, RGB, HSL converter</p>
+    </div>
+    <div class="tool-card" onclick="openTool('api')">
+      <div class="tool-icon">🌐</div>
+      <h3>API Playground</h3>
+      <p>Test REST APIs from browser</p>
+    </div>
+    <div class="tool-card" onclick="openTool('diff')">
+      <div class="tool-icon">±</div>
+      <h3>Text Diff</h3>
+      <p>Compare two texts side by side</p>
+    </div>
+    <div class="tool-card" onclick="openTool('jwt')">
+      <div class="tool-icon">🔑</div>
+      <h3>JWT Decoder</h3>
+      <p>Decode & verify JWT tokens</p>
+    </div>
+    <div class="tool-card" onclick="openTool('cron')">
+      <div class="tool-icon">⏰</div>
+      <h3>Cron Builder</h3>
+      <p>Build cron expressions visually</p>
+    </div>
+    <div class="tool-card" onclick="openTool('markdown')">
+      <div class="tool-icon">M↓</div>
+      <h3>Markdown Preview</h3>
+      <p>Live markdown editor & preview</p>
+    </div>
+    <div class="tool-card" onclick="openTool('qr')">
+      <div class="tool-icon">▣</div>
+      <h3>QR Generator</h3>
+      <p>Generate QR codes from text</p>
+    </div>
+  </section>
+
+  <!-- Tool Modal -->
+  <div id="toolModal" class="modal">
+    <div class="modal-content modal-lg">
+      <span class="close" onclick="closeTool()">&times;</span>
+      <div id="toolContent"></div>
+    </div>
+  </div>
+
+  <!-- Admin Panel -->
+  <div id="adminModal" class="modal">
+    <div class="modal-content modal-lg">
+      <span class="close" onclick="closeAdmin()">&times;</span>
+      <h2>⚙️ Admin Panel</h2>
+      <div class="admin-tabs">
+        <button class="tab-btn active" onclick="showAdminTab('overview')">📊 Overview</button>
+        <button class="tab-btn" onclick="showAdminTab('users')">👥 Users</button>
+        <button class="tab-btn" onclick="showAdminTab('snippets')">📋 Snippets</button>
+        <button class="tab-btn" onclick="showAdminTab('settings')">🔧 Settings</button>
+      </div>
+      <div id="adminContent"></div>
+    </div>
+  </div>
+</main>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
